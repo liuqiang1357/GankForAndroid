@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/item_top_space"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_half"/>
+
+    <LinearLayout
+        android:id="@+id/item_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/space_half"
+        android:paddingLeft="@dimen/space_normal"
+        android:paddingRight="@dimen/space_normal"
+        android:paddingTop="@dimen/space_half">
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?textColorSecondary"
+            android:textSize="18sp"
+            tools:text="text"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:paddingBottom="@dimen/space_half"
+        android:paddingLeft="@dimen/space_normal"
+        android:paddingRight="@dimen/space_normal"
+        android:paddingTop="@dimen/space_half">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/space_normal"
+            android:text="●"
+            android:textColor="?textColorSecondary"
+            android:textSize="8sp"/>
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?textColorSecondary"
+            android:textSize="14sp"
+            tools:text="text"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/item_bottom_space"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_half"/>
+
+</LinearLayout>

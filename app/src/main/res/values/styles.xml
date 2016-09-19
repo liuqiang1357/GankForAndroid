@@ -1,0 +1,116 @@
+<resources>
+    <!-- App Theme Light -->
+    <style name="BaseAppThemeLight" parent="Theme.AppCompat.Light.DarkActionBar"/>
+
+    <style name="AppThemeLight" parent="BaseAppThemeLight">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="textColorPrimary">?android:attr/textColorPrimary</item>
+        <item name="textColorSecondary">?android:attr/textColorPrimary</item>
+        <item name="textColorTertiary">@color/text_color_tertiary_light</item>
+
+        <item name="contentBackground">@color/background_light</item>
+        <item name="contentBackgroundDark">?attr/colorPrimary</item>
+        <item name="contentOverlayTheme">@style/AppThemeOverlayLight</item>
+        <item name="contentOverlayThemeDark">@style/AppThemeOverlayLight.Dark</item>
+
+        <item name="widgetBackground">@color/selectable_widget_background_normal_light</item>
+        <item name="widgetBackgroundDark">@color/selectable_widget_background_pressed_light</item>
+        <item name="selectableWidgetBackground">@drawable/selectable_widget_background_light</item>
+
+    </style>
+
+    <style name="AppThemeOverlayLight" parent="ThemeOverlay.AppCompat.Light">
+        <item name="textColorTertiary">@color/text_color_tertiary_light</item>
+    </style>
+
+    <style name="AppThemeOverlayLight.Dark" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="textColorTertiary">@color/text_color_tertiary_light_dark</item>
+    </style>
+
+    <style name="AppThemeLight.Translucent">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!-- App Theme Dark -->
+    <style name="BaseAppThemeDark" parent="Theme.AppCompat"/>
+
+    <style name="AppThemeDark" parent="BaseAppThemeDark">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="textColorPrimary">?android:attr/textColorPrimary</item>
+        <item name="textColorSecondary">?android:attr/textColorTertiary</item>
+        <item name="textColorTertiary">@color/text_color_tertiary_dark</item>
+
+        <item name="contentBackground">@color/background_dark</item>
+        <item name="contentBackgroundDark">@color/background_dark</item>
+        <item name="contentOverlayTheme">@style/AppThemeOverlayDark</item>
+        <item name="contentOverlayThemeDark">@style/AppThemeOverlayDark.Dark</item>
+
+        <item name="widgetBackground">@color/selectable_widget_background_normal_dark</item>
+        <item name="widgetBackgroundDark">@color/selectable_widget_background_pressed_dark</item>
+        <item name="selectableWidgetBackground">@drawable/selectable_widget_background_dark</item>
+
+    </style>
+
+    <style name="AppThemeOverlayDark" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="textColorTertiary">@color/text_color_tertiary_dark</item>
+    </style>
+
+    <style name="AppThemeOverlayDark.Dark" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="textColorTertiary">@color/text_color_tertiary_dark_dark</item>
+    </style>
+
+    <style name="AppThemeDark.Translucent">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!-- App Widget -->
+    <style name="AppWidget" parent="Theme.AppCompat.Light" />
+
+    <!-- Deep Line -->
+    <style name="AppWidget.DeepLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/deep_line_size</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="AppWidget.DeepLine.Vertical">
+        <item name="android:layout_width">@dimen/deep_line_size</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- Gap -->
+    <style name="AppWidget.ItemGap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/item_gap_height</item>
+    </style>
+
+    <style name="AppWidget.ShadowGap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/shadow_gap_height</item>
+        <item name="android:layout_marginBottom">@dimen/shadow_gap_margin_fill</item>
+        <item name="android:background">@drawable/gap_shadow</item>
+    </style>
+
+    <style name="AppWidget.ShadowGap.Opposite">
+        <item name="android:layout_marginTop">@dimen/shadow_gap_margin_fill</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:background">@drawable/gap_shadow_opposite</item>
+    </style>
+
+    <!-- App Animation -->
+    <style name="AppAnim" parent="android:Animation" />
+
+    <style name="AppAnim.FadeInOut">
+        <item name="@android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="@android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#1e8ae8</color>
+    <color name="color_primary_dark">#176eb9</color>
+    <color name="color_accent">#ffca28</color>
+
+    <color name="background_light">#fafafa</color>
+    <color name="background_dark">#303030</color>
+
+    <color name="text_color_tertiary_light">#808080</color>
+    <color name="text_color_tertiary_light_dark">#c0c0c0</color>
+    <color name="text_color_tertiary_dark">#808080</color>
+    <color name="text_color_tertiary_dark_dark">#808080</color>
+
+    <color name="selectable_widget_background_normal_light">@android:color/white</color>
+    <color name="selectable_widget_background_pressed_light">#ffeeeeee</color>
+    <color name="selectable_widget_background_ripple_light">#ffcccccc</color>
+    <color name="selectable_widget_background_normal_dark">#ff3c3c3c</color>
+    <color name="selectable_widget_background_pressed_dark">#ff444444</color>
+    <color name="selectable_widget_background_ripple_dark">#ff666666</color>
+</resources>

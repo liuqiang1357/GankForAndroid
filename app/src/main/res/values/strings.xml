@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">干货集中营</string>
+
+    <string name="nav_daily">每日干货</string>
+    <string name="nav_type">分类干货</string>
+    <string name="nav_collection">我的收藏</string>
+    <string name="nav_setting">软件设置</string>
+
+    <string name="menu_setting">软件设置</string>
+    <string name="menu_history">查看历史</string>
+    <string name="menu_collect">收藏</string>
+    <string name="menu_open_in_browser">在浏览器中打开</string>
+    <string name="menu_copy_url">复制链接</string>
+    <string name="menu_share">分享</string>
+
+    <string name="error_unknown">未知错误</string>
+    <string name="error_connect">无法连接服务器</string>
+    <string name="error_result">服务器返回值错误</string>
+
+    <string name="press_again_to_exit">再按一次退出</string>
+    <string name="newest_gank">最新干货</string>
+    <string name="all">全部</string>
+
+    <string name="open_url">打开url</string>
+    <string name="open_url_web_view">WebView中打开</string>
+    <string name="open_url_browser">浏览器中打开</string>
+
+    <string name="data_source">数据源</string>
+    <string name="data_source_local">本地数据</string>
+    <string name="data_source_remote">远程数据</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="short_anim_time">200</integer>
+    <integer name="medium_anim_time">400</integer>
+    <integer name="long_anim_time">500</integer>
+
+    <integer name="press_to_exit_time">2000</integer>
+</resources>

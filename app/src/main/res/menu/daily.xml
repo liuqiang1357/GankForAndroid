@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MyActivity">
+    <item
+        android:id="@+id/action_history"
+        android:title="@string/menu_history"
+        android:icon="@drawable/ic_menu_history_white_24dp"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_history_item"
+                android:title="@null"/>
+        </menu>
+    </item>
+</menu>
